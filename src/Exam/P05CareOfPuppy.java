@@ -11,7 +11,7 @@ public class P05CareOfPuppy {
 
         int sum = 0;
         while (!comand.equals("Adopted")){
-            int food = Integer.parseInt(comand);
+            double food = Double.parseDouble(comand);
             sum += food;
             comand = scanner.nextLine();
         }
