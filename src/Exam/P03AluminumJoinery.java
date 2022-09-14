@@ -7,12 +7,6 @@ public class P03AluminumJoinery {
         Scanner scanner = new Scanner(System.in);
 
 
-        //1.	Брой дограми – цяло число в интервала [0..1000];
-        //2.	Вид на дограмите – текст "90X130" или "100X150" или "130X180" или "200X300";
-        //3.	Начин на получаване – текст
-        //•	С доставка - "With delivery"
-        //•	Без доставка - "Without delivery"
-
         int numOfJoinery = Integer.parseInt(scanner.nextLine());
         String typeOfJoinery = scanner.nextLine();
         String delivery = scanner.nextLine();
