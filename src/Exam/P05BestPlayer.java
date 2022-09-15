@@ -6,9 +6,7 @@ public class P05BestPlayer {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        //От конзолата се четат по два реда до въвеждане на команда "END":
-        //•	Име на играч – текст
-        //•	Брой вкарани голове  – цяло положително число в интервала [1 … 10000]
+
         String player = scanner.nextLine();
         String winPlayer = null;
         int result = 0;
