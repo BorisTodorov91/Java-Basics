@@ -10,7 +10,7 @@ public class P05BestPlayer {
         //•	Име на играч – текст
         //•	Брой вкарани голове  – цяло положително число в интервала [1 … 10000]
         String player = scanner.nextLine();
-        String winPlayer = "";
+        String winPlayer = null;
         int result = 0;
         while (!player.equals("END")){
             int goals = Integer.parseInt(scanner.nextLine());
